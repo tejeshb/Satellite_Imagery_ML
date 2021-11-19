@@ -1,6 +1,5 @@
 brotli==1.0.9
 ConfigParser==5.1.0
-cryptography==2.8
 Cython==0.29.15
 dl==0.1.0
 docutils==0.16
