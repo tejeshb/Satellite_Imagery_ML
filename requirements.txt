@@ -20,7 +20,7 @@ charset-normalizer==2.0.7
 clang==5.0
 click==7.1.2
 cycler==0.11.0
-dataclasses==0.8
+dataclasses==0.6
 decorator==5.1.0
 defusedxml==0.7.1
 distlib==0.3.3
