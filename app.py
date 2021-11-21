@@ -4,7 +4,7 @@ import numpy as np
 import cv2
 import os
 from tensorflow.keras.models import load_model
-#predictor_model = load_model('./vgg.h5')git push --force origin master
+
 
 import matplotlib.pyplot as plt
 import time
@@ -25,10 +25,6 @@ st.sidebar.write("Imagine yourself as a trained pilot who is trying to save the 
 #st.sidebar.image("assets/logo.png", width=100)
 
 st.markdown("""---""")
-'''model_upload = st.expander(label='model')
-model_uploaded = model_upload.file_uploader("Upload Model", type=["h5"])
-
-'''
 
 import zipfile
 import tempfile
@@ -53,10 +49,6 @@ def main():
     upload_columns = st.columns([1, 1])
     file_upload =  upload_columns[0].expander(label='Test')
     file_uploaded = file_upload.file_uploader("Choose File", type=["png", "jpg", "jpeg"])
-
-
-
-
 
     if file_uploaded is not None:
         file_bytes = np.asarray(bytearray(file_uploaded.read()), dtype=np.uint8)
