@@ -47,7 +47,7 @@ def main():
 
 
     upload_columns = st.columns([1, 1])
-    file_upload =  upload_columns[0].expander(label='Test')
+    file_upload =  upload_columns[0].expander(label='Upload Image')
     file_uploaded = file_upload.file_uploader("Choose File", type=["png", "jpg", "jpeg"])
 
     if file_uploaded is not None:
