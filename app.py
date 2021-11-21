@@ -12,10 +12,10 @@ import time
 st.title('SHIP CLASSIFIER vs YOU')  #Title
 fig = plt.figure()
 # ----------- Sidebar
-page = st.sidebar.selectbox('Page Navigation', ["Predictor", "Model analysis"])
-
-st.sidebar.markdown("""---""")
+#page = st.sidebar.selectbox('Page Navigation', ["Predictor", "Model analysis"])
 st.sidebar.write("Created by T.AI[medium link]")
+st.sidebar.markdown("""---""")
+
 st.sidebar.write("Imagine yourself as a trained pilot who is trying to save the world   \n  "
          "by spotting the right kind of ship  \n  "
          "You got below information-  \n"
